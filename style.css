@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    text-align: justify;
+}
+
+header {
+    background: #00796b;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*BARRA DE NAVEGACIÓN*/
+
+nav {
+    background-color: #004d40;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+h2, h3 {
+    color: #004d40;
+}
+
+p {
+    line-height: 2;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px #004d40;
+}
+
+.float {
+    display: inline-block;
+}
+
+.float p {
+    float: left;
+    width: 75%;
+    margin-right: 10px;
+}
+
+.float img {
+    float: right;
+    width: 20%;
+    border-radius: 8px;
+}
+
+
+
+/*DISEÑO DE TABLAS*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #b2dfdb;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #004d40;
+    color: white;
+}
+
+td img {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+
+
+/*SECTION TURISMO*/
+
+#turismo h2 {
+    text-align: center;
+}
+
+.turismo-contenido {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.descripcion, .lugares, .galeria {
+    flex: 1;
+}
+
+.lugares ul li {
+    margin-bottom: 10px;
+}
+
+.galeria .imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.galeria img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+footer {
+    background-color: #00796b;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
